@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <form action="#" method="post">
+
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome"> 
+
+    <br><br>
+
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" name="sobrenome" id="sobrenome"> 
+
+    <br><br>
+
+        <label for="idade">Idade</label>
+        <input type="number" name="idade" id="idade" min="0" max="150"> 
+
+    <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"> 
+
+    <br><br>
+
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha">
+
+    <br><br>
+
+        <label for="newsletter"><input type="checkbox" name="newsletter" id="newsletter"> Receber novidades</label>
+
+    <br><br>
+
+<hr>
+
+        <label >Genêro</label>
+
+        <input type="radio" name="genero" id="masc" value="masculino">
+        <label for="masc">Masculino</label> 
+
+        <input type="radio" name="genero" id="fem" value="feminino">
+        <label for="fem">feminino</label>
+
+        <input type="radio" name="genero" id="outro" value="outro">
+        <label for="outro">outro</label>
+
+<hr>
+
+        <label for="estado">Estado</label>
+        <select name="estado" id="estado">
+
+            <option value="1">AC</option>
+            <option value="2">AM</option>
+            <option value="3">BA</option>
+            <option value="4">CE</option>
+            <option value="5">DF</option>
+            <option value="6">GO</option>
+            <option value="7">MG</option>
+            <option value="8">PB</option>
+            <option value="9">RJ</option>
+            <option value="10">SP</option>
+            
+        </select>
+
+<hr>
+
+        <label for="cidade">Cidade</label>
+        <select name="ciadade" id="cidade">
+
+            <option value="1">Americana</option>
+            <option value="2">Campinas</option>
+            <option value="3">Nova Odessa</option>
+            <option value="4">Santa Barbára d'Oeste</option>
+
+        </select>
+
+<hr>
+
+        <label for="mensagem">Mensagem</label>
+       <textarea name="mensagem" id="mensagem" rows="4" cols="5"></textarea>
+
+<hr>
+
+        <input type="submit" value="Enviar">
+        
+
+    </form>
+
+</body>
+</html>

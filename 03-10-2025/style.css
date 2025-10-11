@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+    font-size: 18px;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+
+.baixo{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 600px) {
+    body{
+        background-color: aqua;
+        font-size: 14px;        
+    }
+    img{
+        width: 300px;
+        height: 300px;
+        justify-self: center;
+        margin-top: 40px;
+    }
+
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        text-align: center;
+    }
+}

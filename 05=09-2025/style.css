@@ -1,0 +1,58 @@
+h1{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(77, 70, 90);
+}
+
+.exemplo-bloco{
+    background-color: rgb(157, 157, 216);
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#figura1 img{
+    width: 200px;
+    border-radius: 10px;
+    
+}
+.exemplo-bloco2{
+    background-color: rgb(140, 161, 140);
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+}
+.exemplo-bloco3{
+    background-color: rgb(204, 168, 204);
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+
+}
+
+#container{
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+
+.outro-bloco{
+    background-color: rgb(191, 194, 179);
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+body{
+    background-color: blanchedalmond;
+}

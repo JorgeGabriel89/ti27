@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+/* estilo para texto */
+.negrito{
+    font-style: bold;
+}
+
+.italico{
+    font-style: italic;
+}
+
+.completo{
+    text-decoration: underline;
+}
+
+/* estilo para funoo - background */
+#fundo{
+    background-color: antiquewhite;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+#imagem{
+   /* background-image: url(download.jpg);
+    width: 500px;
+    height: 500px;*/
+}
+
+body{
+    background-image: url(paisagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    opacity: 90%;
+}

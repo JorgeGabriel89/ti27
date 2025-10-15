@@ -1,0 +1,19 @@
+body{
+    background-color: tomato;
+}
+
+.corpo{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario{
+    background-color: aliceblue;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 4px 8px 0px;
+    width: 400px;
+}
